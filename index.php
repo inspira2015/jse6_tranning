@@ -16,6 +16,9 @@
         <li>
             <a href="nestingMod\index.php">Nesting Modules</a>
         </li>
+        <li>
+            <a href="node_creating_client-bundles\index.php">Nesting Modules - Node wepback Install</a>
+        </li>
     </ul>
 
 </body>
