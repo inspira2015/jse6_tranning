@@ -1,4 +1,4 @@
-export var rocket = "Saturn V";
+export default name = "Saturn V";
 export const COUNT_DOWN_DURATION = 10;
 
 export function launch () {
