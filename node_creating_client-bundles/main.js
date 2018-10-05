@@ -1,6 +1,9 @@
 import { atlas, saturnV } from './rockets/index.js';
 
 export function main () {
-    saturnV.launch();
-    atlas.launch();
+    const rockets = [saturnV, atlas];
+
+    for (const rocket of rockets.values()) {
+        rocket.launch();
+    }
 }

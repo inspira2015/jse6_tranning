@@ -8,6 +8,7 @@
 </head>
 <body>
     <script type="module">
+        import './node_modules/babel-polyfill/dist/polyfill.min.js';
         import { main } from './main.js';
         main();
     </script>
