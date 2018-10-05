@@ -1,8 +1,7 @@
-import { COUNT_DOWN_DURATION } from "./saturn-v.js";
 
 export function launchSequence (countDownDuration, name) {
     let currCount = countDownDuration;
-    console.log(`Launching in ${COUNT_DOWN_DURATION}`, name);
+    console.log(`Launching in ${currCount}`, name);
 
     const countDownInterval = setInterval(function () {
         currCount--;
