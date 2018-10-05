@@ -7,16 +7,9 @@
     <title>jse6</title>
 </head>
 <body>
-    <h1>Javascript Examples</h1>
-
-    <ul>
-        <li>
-            <a href="exportdefault\index.php">Export Default</a>
-        </li>
-        <li>
-            <a href="nestingMod\index.php">Nesting Modules</a>
-        </li>
-    </ul>
-
+    <script type="module">
+        import { main } from './main.js';
+        main();
+    </script>
 </body>
 </html>
